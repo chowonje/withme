@@ -1,6 +1,6 @@
-# React Native + Express 앱 프로젝트
+# Instagram 스타일 앱
 
-이 프로젝트는 React Native 모바일 앱과 Express 백엔드 서버로 구성된 풀스택 애플리케이션입니다.
+React Native와 Express를 사용한 인스타그램 스타일 앱입니다.
 
 ## 프로젝트 구조
 
@@ -31,6 +31,12 @@ npm run dev
 ```bash
 cd mobile-app/MobileApp
 npm install
+npm start
+```
+
+Expo 앱을 사용하여 QR 코드를 스캔하거나 다음 명령어로 실행할 수 있습니다:
+
+```bash
 npm run android  # 안드로이드 에뮬레이터 실행
 # 또는
 npm run ios      # iOS 시뮬레이터 실행 (Mac 필요)
@@ -38,13 +44,11 @@ npm run ios      # iOS 시뮬레이터 실행 (Mac 필요)
 npm run web      # 웹 브라우저에서 실행
 ```
 
-## API 연결
+## 주요 기능
 
-모바일 앱에서 백엔드 API에 연결하려면 `App.js` 파일에서 API URL을 수정해야 할 수 있습니다:
-
-- 안드로이드 에뮬레이터: `http://10.0.2.2:5000`
-- iOS 시뮬레이터: `http://localhost:5000`
-- 실제 기기: 컴퓨터의 로컬 IP 주소 (예: `http://192.168.1.100:5000`)
+- 인스타그램 스타일 로그인 페이지
+- 사용자 인증
+- 메인 화면 (개발 중)
 
 ## 기술 스택
 
